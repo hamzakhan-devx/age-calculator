@@ -16,5 +16,14 @@ int main()
     // Output the age
     printf("Your age is: %d\n", age);
     
+    // Age in months is age multiplied by 12
+    printf("Your age in months is: %d\n", age * 12);
+
+    // age in days
+    printf("Your age in days is: %d\n", age * 365);
+
+    // age in hours
+    printf("Your age in hours is: %d\n", age * 365 * 24);
+    
     return 0;
 }
